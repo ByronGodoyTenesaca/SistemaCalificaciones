@@ -10,7 +10,7 @@ import java.sql.Date;
 public class Prueba {
 
     public static void main(String[] args) {
-        //Red Social
+        //Red Social.
         RedSocial facebook = new RedSocial();
         facebook.setCodigo(100);
         facebook.setNombre("Facebook");
