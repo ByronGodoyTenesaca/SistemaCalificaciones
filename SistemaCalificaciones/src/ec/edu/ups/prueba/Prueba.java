@@ -15,49 +15,11 @@ public class Prueba {
     
     public static void main(String[] args){
     
-        Sede sede=new Sede();
-        Persona persona=new Persona();
-        HistorialCalificaciones historial=new HistorialCalificaciones();
-        Estudiante estudiante=new Estudiante();
-        Profesor profeson =new Profesor();
-        Carrera carrera=new Carrera();
-        Materia materia =new Materia();
-        Grupo grupo=new Grupo();
+        Sede cuenca=new Sede(1, "sede cuenca", "calle vieja", "2014522");
+        Carrera computacion=new Carrera(1, "computacion", 10, 40, "Ing. ciendias de la computacion");
+        Carrera electricidad=new Carrera(2, "electricidad", 10, 40, "ing. electrico");
+        Carrera contabilidad=new Carrera(3, "contabilidad", 8, 40, "contadora");
         
         
-        sede.setCodigo(1250);
-        sede.setNombre("campus central");
-        sede.setDireccion("calle vieja");
-        sede.setTelefono("20550025");
-        
-        System.out.println("codigo: "+sede.getCodigo());
-        System.out.println("telefono: "+sede.getTelefono());
-        System.out.println("direccion: "+sede.getDireccion());
-        
-        
-        
-        persona.setCodigo(0215156330);
-        persona.setCedula("0101248778");
-        persona.setNombre("byron");
-        persona.setCorreo("bmfsmfsmf");
-        persona.setDireccion("ricaurte");
-        persona.setSede(sede);
-        persona.setTelefono("20515120");
-        
-        System.out.println("codigo: "+persona.getCodigo());
-        System.out.println("cedula: "+persona.getCedula());
-        System.out.println("nombre: "+persona.getNombre());
-        System.out.println("correo: "+persona.getCorreo());
-        System.out.println("direccion: "+ persona.getDireccion());
-        System.out.println("sede: "+persona.getSede());
-        System.out.println("telefono: "+persona.getTelefono());
-        
-        
-        historial.setEstudiante(estudiante);
-        historial.setMateria(materia);
-        historial.setAprovechamiento1(50);
-        historial.setExamen1(2);
-        historial.setAprovechamiento2(40);
-        historial.setExamen2(5);
     }
 }

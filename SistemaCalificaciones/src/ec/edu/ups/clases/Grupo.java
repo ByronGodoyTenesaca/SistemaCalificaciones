@@ -15,6 +15,14 @@ public class Grupo {
     private String nombre;
     private int cupo;
 
+    public Grupo(int codigo, String nombre, int cupo) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.cupo = cupo;
+    }
+    
+    
+
     public int getCodigo() {
         return codigo;
     }
