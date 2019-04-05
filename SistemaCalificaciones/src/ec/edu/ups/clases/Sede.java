@@ -5,10 +5,17 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.List;
+
 /**
  *
  * @author Usuario
  */
 public class Sede {
     
+    int codigo;
+    String nombre;
+    String direccion;
+    String telefono;
+    List <Carrera> carreras;
 }
