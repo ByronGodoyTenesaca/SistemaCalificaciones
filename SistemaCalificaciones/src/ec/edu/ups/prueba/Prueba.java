@@ -5,10 +5,26 @@
  */
 package ec.edu.ups.prueba;
 
+import ec.edu.ups.clases.*;
+
 /**
  *
  * @author Usuario
  */
 public class Prueba {
     
+    public static void main(String[] args){
+    
+        Sede sede=new Sede();
+        Persona persona=new Persona();
+        HistorialCalificaciones historial=new HistorialCalificaciones();
+        Estudiante estudiante=new Estudiante();
+        Profesor profeson =new Profesor();
+        Carrera carrera=new Carrera();
+        Materia materia =new Materia();
+        Grupo grupo=new Grupo();
+        
+        
+        
+    }
 }
