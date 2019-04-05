@@ -25,6 +25,14 @@ public class Prueba {
         Grupo grupo=new Grupo();
         
         
+        sede.setCodigo(1250);
+        sede.setNombre("campus central");
+        sede.setDireccion("calle vieja");
+        sede.setTelefono("20550025");
+        
+        System.out.println("codigo: "+sede.getCodigo());
+        System.out.println("telefono: "+sede.getTelefono());
+        System.out.println("direccion: "+sede.getDireccion());
         
     }
 }
