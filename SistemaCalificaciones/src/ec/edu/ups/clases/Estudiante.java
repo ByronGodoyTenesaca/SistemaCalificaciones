@@ -12,5 +12,13 @@ package ec.edu.ups.clases;
 public class Estudiante {
     
     Carrera carrera;
+
+    public Carrera getCarrera() {
+        return carrera;
+    }
+
+    public void setCarrera(Carrera carrera) {
+        this.carrera = carrera;
+    }
     
 }
