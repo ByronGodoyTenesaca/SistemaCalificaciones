@@ -11,4 +11,8 @@ package ec.edu.ups.clases;
  */
 public class Profesor {
     
+    String titulo;
+    double salario;
+    String cargo;
+    
 }

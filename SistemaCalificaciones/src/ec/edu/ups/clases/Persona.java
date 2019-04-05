@@ -11,4 +11,11 @@ package ec.edu.ups.clases;
  */
 public class Persona {
     
+    int codigo;
+    String nombre;
+    String cedula;
+    String telefono;
+    String direccion;
+    String correo;
+    Sede sede;
 }
