@@ -11,13 +11,13 @@ package ec.edu.ups.clases;
  */
 public class Persona {
     
-    int codigo;
-    String nombre;
-    String cedula;
-    String telefono;
-    String direccion;
-    String correo;
-    Sede sede;
+    private int codigo;
+    private String nombre;
+    private String cedula;
+    private String telefono;
+    private String direccion;
+    private String correo;
+    private Sede sede;
 
     public int getCodigo() {
         return codigo;

@@ -11,13 +11,13 @@ package ec.edu.ups.clases;
  */
 public class Materia {
     
-    int codigo;
-    String nombre;
-    int numeroCreditos;
-    int numeroHoras;
-    int nivel;
-    Grupo grupo;
-    Profesor profesor;
+    private int codigo;
+    private String nombre;
+    private int numeroCreditos;
+    private int numeroHoras;
+    private int nivel;
+    private Grupo grupo;
+    private Profesor profesor;
 
     public int getCodigo() {
         return codigo;

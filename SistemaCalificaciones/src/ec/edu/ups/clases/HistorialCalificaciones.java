@@ -11,12 +11,12 @@ package ec.edu.ups.clases;
  */
 public class HistorialCalificaciones {
     
-    Materia materia;
-    Estudiante estudiante;
-    int aprovechamiento1;
-    int examen1;
-    int aprovechamiento2;
-    int examen2;
+    private Materia materia;
+    private Estudiante estudiante;
+    private int aprovechamiento1;
+    private int examen1;
+    private int aprovechamiento2;
+    private int examen2;
 
     public Materia getMateria() {
         return materia;

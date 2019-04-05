@@ -13,11 +13,11 @@ import java.util.List;
  */
 public class Sede {
     
-    int codigo;
-    String nombre;
-    String direccion;
-    String telefono;
-    List <Carrera> carreras;
+    private int codigo;
+    private String nombre;
+    private String direccion;
+    private String telefono;
+    private List <Carrera> carreras;
 
     public int getCodigo() {
         return codigo;

@@ -11,9 +11,9 @@ package ec.edu.ups.clases;
  */
 public class Grupo {
     
-    int codigo;
-    String nombre;
-    int cupo;
+    private int codigo;
+    private String nombre;
+    private int cupo;
 
     public int getCodigo() {
         return codigo;

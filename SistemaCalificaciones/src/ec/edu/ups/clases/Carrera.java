@@ -12,12 +12,12 @@ import java.util.List;
  * @author Usuario
  */
 public class Carrera {
-    int codigo;
-    String nombre;
-    List<Materia> materias;
-    int numeroSemestres;
-    int numeroEstudiantes;
-    String titulo;
+    private int codigo;
+    private String nombre;
+    private List<Materia> materias;
+    private int numeroSemestres;
+    private int numeroEstudiantes;
+    private String titulo;
 
     public int getCodigo() {
         return codigo;

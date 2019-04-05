@@ -11,7 +11,7 @@ package ec.edu.ups.clases;
  */
 public class Estudiante {
     
-    Carrera carrera;
+    private Carrera carrera;
 
     public Carrera getCarrera() {
         return carrera;
