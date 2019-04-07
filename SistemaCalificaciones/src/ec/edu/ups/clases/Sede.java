@@ -18,7 +18,8 @@ public class Sede {
     private String direccion;
     private String telefono;
     private List <Carrera> carreras;
-    
+
+     
     public Sede(){
     
     }
@@ -68,9 +69,11 @@ public class Sede {
         return carreras;
     }
 
-    public void setCarreras(List<Carrera> carreras) {
-        this.carreras = carreras;
+    public void agregarCarrera(Carrera computacion) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+   
     
     
 }

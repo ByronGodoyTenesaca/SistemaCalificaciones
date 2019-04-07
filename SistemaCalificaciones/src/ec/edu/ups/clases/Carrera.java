@@ -5,6 +5,7 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,7 +15,7 @@ import java.util.List;
 public class Carrera {
     private int codigo;
     private String nombre;
-    private List<Materia> materias;
+    private List<Materia> materias=new ArrayList();
     private int numeroSemestres;
     private int numeroEstudiantes;
     private String titulo;
@@ -27,6 +28,7 @@ public class Carrera {
         this.numeroSemestres = numeroSemestres;
         this.numeroEstudiantes = numeroEstudiantes;
         this.titulo = titulo;
+        
     }
     
     
@@ -78,6 +80,8 @@ public class Carrera {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    
-    
+
+    public void agregarMateria(Materia materia) {
+        materias.add(materia);
+    }
 }

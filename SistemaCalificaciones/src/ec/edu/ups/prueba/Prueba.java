@@ -12,6 +12,7 @@
 package ec.edu.ups.prueba;
 
 import ec.edu.ups.clases.*;
+   
 
 /**
  *
@@ -21,7 +22,9 @@ public class Prueba {
     
     public static void main(String[] args){
     
-        Sede cuenca=new Sede(1, "sede cuenca", "calle vieja", "2014522");
+        
+       
+        Sede cuenca=new Sede(1, "campus central", "calle vieja", "20114421");
         Carrera computacion=new Carrera(1, "computacion", 10, 40, "Ing. ciendias de la computacion");
         Carrera electricidad=new Carrera(2, "electricidad", 10, 40, "ing. electrico");
         Carrera contabilidad=new Carrera(3, "contabilidad", 8, 40, "contadora");
@@ -38,8 +41,27 @@ public class Prueba {
         
         Estudiante byron=new Estudiante(1, "Byron", "0107377020", "096874", "Ricaurte", "byron@hotmail.com");
         Estudiante jonatan=new Estudiante(2, "Jonathan", "056156165", "26262662", "sidcay", "camcioaefnia");
+        Estudiante javier=new Estudiante(3, "Javier", "0101472052", "20125151", "Ricaurte", "javier1@hotail.com|");
+        Estudiante vinicio=new Estudiante(4, "Vinicio", "01258415", "2013481", "Sinincay", "vnijnisvn skjv");
         
+        Grupo uno=new Grupo(1, "ciencias exactas", 40);
+        Grupo dos=new Grupo(2, "profesional", 40);
+        
+     
+        cuenca.agregarCarrera(computacion);
+        cuenca.agregarCarrera(electricidad);
+        cuenca.agregarCarrera(contabilidad);
+        
+        computacion.agregarMateria(calculo);
+        computacion.agregarMateria(algebra);
+        electricidad.agregarMateria(electronica);
+        electricidad.agregarMateria(expresionOral);
+        contabilidad.agregarMateria(ecuaciones);
+        contabilidad.agregarMateria(fisica);
+
     
-    //cuenca.agregarCarrera(computacion); para agregar a Carreras
+
+    
+        
     }
 }
