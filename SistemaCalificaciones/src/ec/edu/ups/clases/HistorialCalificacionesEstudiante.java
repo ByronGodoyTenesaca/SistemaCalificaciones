@@ -20,6 +20,22 @@ public class HistorialCalificacionesEstudiante {
     private int examen2;
     Estudiante estudiante;
 
+    public HistorialCalificacionesEstudiante(Materia materia, int aprovechamiento1, int examen1, int aprovechamiento2, int examen2, Estudiante estudiante) {
+        this.materia = materia;
+        this.aprovechamiento1 = aprovechamiento1;
+        this.examen1 = examen1;
+        this.aprovechamiento2 = aprovechamiento2;
+        this.examen2 = examen2;
+        this.estudiante = estudiante;
+    }
+
+    @Override
+    public String toString() {
+        return "HistorialCalificacionesEstudiante{" + "materia=" + materia + ", aprovechamiento1=" + aprovechamiento1 + ", examen1=" + examen1 + ", aprovechamiento2=" + aprovechamiento2 + ", examen2=" + examen2 + ", estudiante=" + estudiante + '}';
+    }
+    
+    
+
     public Materia getMateria() {
         return materia;
     }

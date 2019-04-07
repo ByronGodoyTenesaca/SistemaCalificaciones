@@ -17,6 +17,12 @@ public class Estudiante extends Persona{
     public Estudiante(){
     
     }
+
+    @Override
+    public String toString() {
+        return "Estudiante{" + "carrera=" + carrera + '}';
+    }
+    
     
    
     public Estudiante(int codigo){
@@ -45,5 +51,4 @@ public class Estudiante extends Persona{
     public void setCarrera(Carrera carrera) {
         this.carrera = carrera;
     }
-    
 }

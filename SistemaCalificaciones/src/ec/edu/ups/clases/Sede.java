@@ -5,6 +5,7 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,18 +18,26 @@ public class Sede {
     private String nombre;
     private String direccion;
     private String telefono;
-    private List <Carrera> carreras;
+    private List <Carrera> carreras=new ArrayList();
 
      
     public Sede(){
     
     }
+    
+    
 
     public Sede(int codigo, String nombre, String direccion, String telefono) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
+    }
+
+    @Override
+    public String toString() {
+        return "Sede{" + "codigo=" + codigo + ", nombre=" + nombre + ", direccion=" + direccion + ", telefono=" + telefono;
+        
     }
     
     
@@ -66,12 +75,20 @@ public class Sede {
     }
 
     public List<Carrera> getCarreras() {
+        
         return carreras;
     }
-
-    public void agregarCarrera(Carrera computacion) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
+    public void imprimir(){
+    for (int i=0;i<carreras.size();i++){
+            System.out.println(carreras.get(i));
+        }
     }
+
+    public void agregarCarrera(Carrera carrera) {
+       carreras.add(carrera);
+    }
+    
 
    
     

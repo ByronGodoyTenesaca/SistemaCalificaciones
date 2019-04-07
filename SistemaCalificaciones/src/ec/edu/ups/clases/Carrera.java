@@ -19,6 +19,12 @@ public class Carrera {
     private int numeroSemestres;
     private int numeroEstudiantes;
     private String titulo;
+
+    @Override
+    public String toString() {
+        return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materias=" + materias + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
+    }
+    
     
   
 

@@ -12,6 +12,7 @@
 package ec.edu.ups.prueba;
 
 import ec.edu.ups.clases.*;
+import java.awt.BorderLayout;
    
 
 /**
@@ -47,6 +48,8 @@ public class Prueba {
         Grupo uno=new Grupo(1, "ciencias exactas", 40);
         Grupo dos=new Grupo(2, "profesional", 40);
         
+        HistorialCalificacionesEstudiante historial=new HistorialCalificacionesEstudiante( algebra, 20, 8, 10, 20, byron);
+        
      
         cuenca.agregarCarrera(computacion);
         cuenca.agregarCarrera(electricidad);
@@ -58,10 +61,25 @@ public class Prueba {
         electricidad.agregarMateria(expresionOral);
         contabilidad.agregarMateria(ecuaciones);
         contabilidad.agregarMateria(fisica);
+        
+        calculo.setGrupo(uno);
+        algebra.setGrupo(uno);
+        electronica.setGrupo(uno);
+        expresionOral.setGrupo(dos);
+        ecuaciones.setGrupo(dos);
+        fisica.setGrupo(dos);
+        
+        calculo.setProfesor(paola);
+        algebra.setProfesor(paola);
+        electronica.setProfesor(paola);
+        expresionOral.setProfesor(jenifer);
+        ecuaciones.setProfesor(jenifer);
+        fisica.setProfesor(jenifer);
+        
 
-    
-
-    
+        //byron.agregarEstudiante(historial);
+        System.out.println(cuenca);
+        cuenca.imprimir();
         
     }
 }

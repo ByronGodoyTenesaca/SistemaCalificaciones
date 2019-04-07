@@ -27,6 +27,13 @@ public class Materia {
         this.nivel = nivel;
     }
 
+    @Override
+    public String toString() {
+        return "Materia{" + "codigo=" + codigo + ", nombre=" + nombre + ", numeroCreditos=" + numeroCreditos + ", numeroHoras=" + numeroHoras + ", nivel=" + nivel + ", grupo=" + grupo + ", profesor=" + profesor + '}';
+    }
+
+    
+    
     
     public int getCodigo() {
         return codigo;
