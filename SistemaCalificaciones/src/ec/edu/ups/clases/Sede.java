@@ -18,6 +18,10 @@ public class Sede {
     private String direccion;
     private String telefono;
     private List <Carrera> carreras;
+    
+    public Sede(){
+    
+    }
 
     public Sede(int codigo, String nombre, String direccion, String telefono) {
         this.codigo = codigo;

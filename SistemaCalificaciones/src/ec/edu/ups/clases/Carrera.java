@@ -18,6 +18,8 @@ public class Carrera {
     private int numeroSemestres;
     private int numeroEstudiantes;
     private String titulo;
+    
+  
 
     public Carrera(int codigo, String nombre, int numeroSemestres, int numeroEstudiantes, String titulo) {
         this.codigo = codigo;

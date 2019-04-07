@@ -9,14 +9,16 @@ package ec.edu.ups.clases;
  *
  * @author Usuario
  */
-public class HistorialCalificaciones {
+
+// crear 4 lista de historial calificacion 
+public class HistorialCalificacionesEstudiante {
     
     private Materia materia;
-    private Estudiante estudiante;
     private int aprovechamiento1;
     private int examen1;
     private int aprovechamiento2;
     private int examen2;
+    Estudiante estudiante;
 
     public Materia getMateria() {
         return materia;
@@ -27,6 +29,7 @@ public class HistorialCalificaciones {
     }
 
     public Estudiante getEstudiante() {
+ 
         return estudiante;
     }
 
