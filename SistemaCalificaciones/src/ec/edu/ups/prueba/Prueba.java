@@ -26,7 +26,7 @@ public class Prueba {
         
        
         Sede cuenca=new Sede(1, "campus central", "calle vieja", "20114421");
-        Carrera computacion=new Carrera(1, "computacion", 10, 40, "Ing. ciendias de la computacion");
+        Carrera computacion=new Carrera(1, "computacion", 10, 40, "Ing. ciencias de la computacion");
         Carrera electricidad=new Carrera(2, "electricidad", 10, 40, "ing. electrico");
         Carrera contabilidad=new Carrera(3, "contabilidad", 8, 40, "contadora");
         
@@ -80,6 +80,26 @@ public class Prueba {
         //byron.agregarEstudiante(historial);
         System.out.println(cuenca);
         cuenca.imprimir();
+        
+        System.out.println("\ncomputacion");
+        System.out.println(computacion);
+        computacion.imprimir();
+       
+        System.out.println("electricidad");
+        System.out.println(electricidad);
+        electricidad.imprimir();
+        
+        System.out.println("contabilidad");
+        System.out.println(contabilidad);
+        contabilidad.imprimir();
+        
+        System.out.println("materias");
+        System.out.println(calculo);
+        System.out.println(algebra);
+        System.out.println(electronica);
+        System.out.println(expresionOral);
+        System.out.println(ecuaciones);
+        System.out.println(fisica);
         
     }
 }

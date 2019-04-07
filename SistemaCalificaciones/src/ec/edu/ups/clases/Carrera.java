@@ -22,7 +22,7 @@ public class Carrera {
 
     @Override
     public String toString() {
-        return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materias=" + materias + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
+        return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
     }
     
     
@@ -87,6 +87,13 @@ public class Carrera {
         this.titulo = titulo;
     }
 
+     public void imprimir(){
+    for (int i=0;i<materias.size();i++){
+            System.out.println(materias.get(i));
+        }
+    System.out.println("\n");
+    }
+     
     public void agregarMateria(Materia materia) {
         materias.add(materia);
     }
